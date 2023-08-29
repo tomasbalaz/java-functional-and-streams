@@ -2,7 +2,7 @@ package sk.balaz;
 
 @FunctionalInterface
 public interface EmailSender {
-    void send();
+    boolean send(String from, String to);
 
     // Multiple non-overriding abstract methods found in interface sk.balaz.EmailSender
     // void unsend();
