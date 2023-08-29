@@ -1,25 +1,20 @@
 package sk.balaz.functionalinterface;
 
-import java.util.List;
 import java.util.function.Function;
-import java.util.stream.Stream;
 
 public class _Function {
 
     public static void main(String[] args) {
-        System.out.println(increment(1));
-        System.out.println(incrementFunc.apply(1));
-
-        List<Integer> integers = Stream.of(1, 2, 3)
-                .map(_Function::increment)
-                .toList();
-
-        System.out.println(integers);
+        Function<Integer, Integer> combinedFunction = incrementFunc.andThen(doubleFunc);
+        System.out.println(combinedFunction.apply(1));
+        System.out.println(combinedFunction.apply(3));
     }
 
     static Function<Integer, Integer> incrementFunc =
             n -> n + 1;
 
+    static Function<Integer, Integer> doubleFunc =
+            n -> n * 2;
     static int increment(int number) {
         return number + 1;
     }
