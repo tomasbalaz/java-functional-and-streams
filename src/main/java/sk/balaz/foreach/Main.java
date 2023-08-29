@@ -16,7 +16,7 @@ public class Main {
         }
 
         List<String> names2 = List.of("Jamila", "Alex", "Mariam");
-        Consumer<String> stringConsumer = name -> System.out.println(name);
-        names2.forEach(stringConsumer);
+        Consumer<String> stringConsumer = System.out::println;
+        names2.forEach(name -> System.out.println(name.toUpperCase()));
     }
 }
