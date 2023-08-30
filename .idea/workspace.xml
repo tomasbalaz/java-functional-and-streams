@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to use java.util.function.BiConsumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/functionalinterface/_Predicate.java" afterDir="false" />
+    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to use java.util.function.Predicate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/functionalinterface/_Supplier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Predicate">
+  <component name="RunManager" selected="Application._Supplier">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -126,19 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_BiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.balaz.functionalinterface._BiFunction" />
-      <module name="java-functional-and-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sk.balaz.functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.balaz.functionalinterface._Consumer" />
       <module name="java-functional-and-streams" />
@@ -165,13 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.balaz.functionalinterface._Supplier" />
+      <module name="java-functional-and-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.balaz.functionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Supplier" />
         <item itemvalue="Application._Predicate" />
         <item itemvalue="Application._BiConsumer" />
         <item itemvalue="Application._Consumer" />
         <item itemvalue="Application._BiFunction (1)" />
-        <item itemvalue="Application._BiFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <workItem from="1693295028866" duration="39000" />
       <workItem from="1693311646903" duration="528000" />
       <workItem from="1693376371647" duration="612000" />
-      <workItem from="1693400485928" duration="1543000" />
+      <workItem from="1693400485928" duration="2252000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional-and-streams application">
       <option name="closed" value="true" />
@@ -261,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693401917073</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Example how to use java.util.function.Predicate">
+      <option name="closed" value="true" />
+      <created>1693402512193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693402512193</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,7 @@
     <MESSAGE value="Example how Chain Function with andThen method" />
     <MESSAGE value="Example how to use java.util.function.Consumer" />
     <MESSAGE value="Example how to use java.util.function.BiConsumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example how to use java.util.function.BiConsumer" />
+    <MESSAGE value="Example how to use java.util.function.Predicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example how to use java.util.function.Predicate" />
   </component>
 </project>
