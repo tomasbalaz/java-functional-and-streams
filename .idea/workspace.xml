@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to use java.util.function.Predicate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to implement functional interfaces">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/PersonRegistrationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -195,7 +196,7 @@
       <workItem from="1693400485928" duration="2252000" />
       <workItem from="1693461498765" duration="1000" />
       <workItem from="1693465792616" duration="90000" />
-      <workItem from="1693484481786" duration="688000" />
+      <workItem from="1693484481786" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional-and-streams application">
       <option name="closed" value="true" />
@@ -277,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693402512193</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Example how to implement functional interfaces">
+      <option name="closed" value="true" />
+      <created>1693485269614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693485269614</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +315,18 @@
     <MESSAGE value="Example how to use java.util.function.Consumer" />
     <MESSAGE value="Example how to use java.util.function.BiConsumer" />
     <MESSAGE value="Example how to use java.util.function.Predicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example how to use java.util.function.Predicate" />
+    <MESSAGE value="Example how to implement functional interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example how to implement functional interfaces" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/PersonRegistrationValidator.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
