@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to implement functional interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/PersonRegistrationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/combinatornpattern/Main.java" afterDir="false" />
+    <list default="true" id="00e4fb1f-dce0-46a2-8dae-6d6265a3ca1c" name="Changes" comment="Example how to use JavaScript callbacks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/balaz/beyoundfunction/Callbacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
       <list>
         <option value="Interface" />
         <option value="Record" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -62,20 +61,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Callbacks">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -106,38 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.balaz.beyoundfunction.Callbacks" />
+      <module name="java-functional-and-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.balaz.beyoundfunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.balaz.combinatornpattern.Main" />
       <module name="java-functional-and-streams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sk.balaz.combinatornpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_BiFunction (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.balaz.functionalinterface._BiFunction" />
-      <module name="java-functional-and-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sk.balaz.functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.balaz.functionalinterface._Consumer" />
-      <module name="java-functional-and-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sk.balaz.functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/java/sk/balaz/beyoundfunction/main.js" working-dir="$PROJECT_DIR$/src/main/java/sk/balaz/beyoundfunction">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Callbacks" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._Supplier" />
         <item itemvalue="Application._Predicate" />
-        <item itemvalue="Application._Consumer" />
-        <item itemvalue="Application._BiFunction (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +186,7 @@
       <workItem from="1693400485928" duration="2252000" />
       <workItem from="1693461498765" duration="1000" />
       <workItem from="1693465792616" duration="90000" />
-      <workItem from="1693484481786" duration="1768000" />
+      <workItem from="1693484481786" duration="3122000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional-and-streams application">
       <option name="closed" value="true" />
@@ -286,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693485269614</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created PersonRegistrationValidator as combinator pattern via functional style">
+      <option name="closed" value="true" />
+      <created>1693486577475</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693486577475</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Example how to use JavaScript callbacks">
+      <option name="closed" value="true" />
+      <created>1693487327271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693487327271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +322,9 @@
     <MESSAGE value="Example how to use java.util.function.BiConsumer" />
     <MESSAGE value="Example how to use java.util.function.Predicate" />
     <MESSAGE value="Example how to implement functional interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example how to implement functional interfaces" />
+    <MESSAGE value="Created PersonRegistrationValidator as combinator pattern via functional style" />
+    <MESSAGE value="Example how to use JavaScript callbacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example how to use JavaScript callbacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
